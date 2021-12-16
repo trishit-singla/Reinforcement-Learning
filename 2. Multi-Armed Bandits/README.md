@@ -22,7 +22,7 @@ The sequence of steps associated to the certainty of ε having occurred is shown
 1. Maybe: Q(*a<sub>k<sub>*)=0 ∀k at this point, so choosing A₁ = 1 could have happened as a random choice due to ε, or by randomly choosing an action when tie-breaking.
 2. Yes: Q(*a<sub>1<sub>*)>0 at this point, so choosing A<sub>2</sub> = 2 is necessarily a random decision, otherwise A<sub>1</sub> would have been chosen.
 3. Maybe: Q(*a<sub>k<sub>*) = 1 for k ∈ {1, 2} at this point, so choosing A<sub>3</sub> = 2 could have happened due to ε, or by randomly choosing an action when tie-breaking.
-4. Maybe: Q(*a<sub>2<sub>*) = 1.5 at this point, so choosing A<sub>4</sub> = 2 could have happened due to ε, or by selecting the option action with highest Q at this point, which is a<sub>2</sub>.
+4. No: Q(*a<sub>2<sub>*) = 1.5 at this point, so choosing A<sub>4</sub> = 2 was optimal with greedy as we selected the action with highest Q at this point, which is a<sub>2</sub>.
 5. Yes: Q(*a<sub>2<sub>*) = 1.67 is the highest value-state at this point, so choosing A<sub>5</sub> = 3 is necessarily a random decision, otherwise A<sub>2</sub> would have been chosen.
 
 ### Exercise 2.3:
